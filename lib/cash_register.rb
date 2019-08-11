@@ -20,7 +20,7 @@ class CashRegister
         @title = title
         @price = price * quantity
         self.title
-        quantity.times do
+        @werwer = quantity.times do
             @items << title
         end
         @last_transaction = price * quantity
